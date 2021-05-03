@@ -214,7 +214,7 @@ class WeekWise extends Component {
                           <th scope="col">SOD</th>
                           <th scope="col">FIBR</th>
                           <th scope="col">SUGR</th>
-                          <th scope="col">VITA</th>
+                          {/* <th scope="col">VITA</th> */}
                           <th scope="col">Delete</th>
                         </tr>
                       </thead>
@@ -232,7 +232,7 @@ class WeekWise extends Component {
                           <td>{x['sod']}</td>
                           <td>{x['fibr']}</td>
                           <td>{x['sugr']}</td>
-                          <td>{x['vita']}</td>
+                          {/* <td>{x['vita']}</td> */}
                           <td>
                             <button type="button" onClick={()=>this.onDelete(x['_id'])} className="btn btn-danger cursorSection">
                               Delete
